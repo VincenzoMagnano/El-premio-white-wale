@@ -1,0 +1,13 @@
+.position-des{
+    position: relative;
+    left: -100px;
+}
+
+@media screen and (max-width: 768px) {
+    .position-des{
+        position: relative;
+        left: -19px;
+    }
+    
+}
+

@@ -1,0 +1,15 @@
+.btn-design2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Bebas Neue';
+    font-size: 1.3rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-design2:hover{
+    background-color: rgb(132, 132, 132);
+    color: rgb(255, 255, 255);
+}
