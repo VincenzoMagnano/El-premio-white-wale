@@ -1,0 +1,37 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "title": "Endless Summer",
+            "description": "Immergiti nel ritmo dell’estate infinita con il nostro sample pack di batterie ‘Endless Summer’",
+            "image": "Endless-Summer.jpeg",
+            "price": 10.00,
+            "quantity": 5
+          },
+
+          {
+            "id": 2,
+            "title": "Lockdown Drums",
+            "description": "“Lockdown Drum” è un sample pack che cattura l’essenza della creatività musicale in tempi di isolamento. ",
+            "image": "Lockdown-drums.jpeg",
+            "price": 10.00,
+            "quantity": 5
+          },
+          {
+            "id": 3,
+            "title": "Lockdown Melodies",
+            "description": "“Lockdown Melodies” comprende tutte le drum di Lockdown Drums + le melodie della solitudine provata nel lockdown in un unico pacchetto. ",
+            "image": "Lockdown-melodies.jpeg",
+            "price": 10.00,
+            "quantity": 5
+          },
+          {
+            "id": 4,
+            "title": "Spring Force",
+            "description": "La freddezza delle batterie, il metallo degli strumenti, tutto all'interno di “Spring Force”. ",
+            "image": "Spring-force.jpeg",
+            "price": 10.00,
+            "quantity": 5
+          }
+    ]
+}

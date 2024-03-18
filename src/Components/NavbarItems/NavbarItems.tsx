@@ -17,7 +17,7 @@ const NavbarItems = () => {
             </button>
             <div className="collapse navbar-collapse justify-content-center mx-5 position-design " id="navbarNavAltMarkup">
                 <div className="navbar-nav  dimension-design">
-                    <Link to="/samplepack">
+                    <Link to="/innersamplepack">
                     <a className="nav-link active mx-5 " aria-current="page" href="#">SAMPLE PACK</a>
                     </Link>
                     <a className="nav-link mx-5" href="#">ABOUT US</a>
