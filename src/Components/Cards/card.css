@@ -1,30 +1,28 @@
 .card-design {
-    width: 22rem;
+    width: 20rem;
     height: 40rem;
     position: relative;
     top: 50px;
-    border: 10px solid rgba(162, 162, 162, 0.507);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
-
-.title-des{
+.title-des {
     text-align: center;
     font-size: 2rem;
     height: 40px;
     font-family: "Bebas Neue", cursive;
 }
 
-.text-des{
+.text-des {
     text-align: center;
     height: 40px;
     font-family: "Bebas Neue", cursive;
-   
+
 }
 
-.price-adt{
+.price-adt {
     position: relative;
     top: 70px;
     font-size: large;
@@ -35,7 +33,7 @@
     align-items: center;
 }
 
-.btn-design3{
+.btn-design3 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border-radius: 20px;
@@ -46,7 +44,7 @@
     transition: all 0.1s ease-in-out;
 }
 
-.btn-design3:hover{
+.btn-design3:hover {
     background-color: rgb(132, 132, 132);
     color: rgb(255, 255, 255);
 }

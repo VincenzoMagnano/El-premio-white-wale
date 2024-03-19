@@ -12,7 +12,7 @@ const Navbar = () => {
                     <Link to='/samplepack'>
                     <a
                         className="navbar-brand position-des design-logo"
-                        href="#">
+                        href="/samplepack">
                         <img
                             src="Senza titolo-1.png"
                             width={200}

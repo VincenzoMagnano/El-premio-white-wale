@@ -1,20 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Hero from './Components/Hero/Nav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SamplePackPage from './Page/SamplePackPage/SamplePackPage';
 import InnerSamplePack from './Page/InnerSamplePack/InnerSamplePack';
+import Nav from './Components/Nav/Nav';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <Router> 
     <div className="App">
-      <Hero />
+      <Nav />
       <Routes>
-        <Route path='/samplepack' Component={SamplePackPage} />
-        <Route path='/innersamplepack' Component={InnerSamplePack} />
+        <Route path="/" element={<SamplePackPage />}/>
+        <Route  path='/samplepack' element={<SamplePackPage/>} />
+        <Route path='/innersamplepack' element={<InnerSamplePack/>} />
       </Routes>
     </div>
+      <Footer/>
     </Router>
   );
 }

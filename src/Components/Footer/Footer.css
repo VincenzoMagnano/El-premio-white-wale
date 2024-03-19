@@ -1,0 +1,38 @@
+.footer-design {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(204, 204, 204);
+    padding: 1.5rem;
+    opacity: 80%;
+}
+
+.footer-design p {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+}
+
+.footer-design ul {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    margin-left: 7rem;
+    font-size: 14px;
+
+}
+
+.footer-design ul a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+
+
+  
