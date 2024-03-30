@@ -1,38 +1,114 @@
-.footer-design {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(204, 204, 204);
-    padding: 1.5rem;
-    opacity: 80%;
-}
-
-.footer-design p {
-    display: flex;
-    flex-flow: column;
-    position: relative;
-    top: 20px;
-    font-size: 12px;
-}
-
-.footer-design ul {
-    display: flex;
-    flex-flow: column;
-    position: relative;
-    margin-left: 7rem;
-    font-size: 14px;
-
-}
-
-.footer-design ul a {
-    margin-top: 5px;
+.social-link-des {
     text-decoration: none;
     color: black;
+    font-size: 20px;
+    margin: 10px;
 }
 
-.footer-logo {
-    width: 150px;
+.logo-des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
+.footer-intro{
+    padding: 1rem;
+}
 
+.links-des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 20px;
+}
 
-  
+@media screen and (min-width: 320px) {
+    .main-div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: column;
+        background-color: rgb(218, 218, 218);
+        padding: 1rem;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin: 20px;
+    }
+
+    .footer-links a {
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+
+    .footer-text{
+        margin: 2rem;
+        font-size: 14px;
+    }
+
+    .footer-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+}
+@media screen and (min-width: 768px) {
+    .main-div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: column;
+        background-color: rgb(218, 218, 218);
+        padding: 1rem;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        margin: 20px;
+    }
+
+    .footer-links a {
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    }
+
+    .footer-text{
+        margin: 2rem;
+        font-size: 14px;
+    }
+
+    .footer-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+}

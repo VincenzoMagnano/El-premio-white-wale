@@ -12,10 +12,10 @@ const Sidebar = () => {
             data-bs-toggle="offcanvas" 
             data-bs-target="#offcanvasRight" 
             aria-controls="offcanvasRight">
-             <i className="ri-login-circle-line dimension"></i>
+             LOGIN
             </button>
 
-           <SidebarItems/>
+           
         </>
     )
 }

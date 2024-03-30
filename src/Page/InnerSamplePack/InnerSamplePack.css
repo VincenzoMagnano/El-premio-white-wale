@@ -1,0 +1,61 @@
+@media screen and (min-width: 320px) {
+    .back-des {
+        background: rgb(255, 252, 252);
+        background: linear-gradient(180deg, rgba(255, 252, 252, 0.296) 0%, rgba(224, 221, 221, 1) 16%, rgb(177, 177, 177) 78%);
+        height: 900px;
+        width: 310px;
+        align-items: center;
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+        margin: auto;
+        padding: 0.5rem;
+        overflow: auto;
+    }
+
+    .text-des2 {
+        font-family: 'bebas neue', cursive;
+        font-size: 4rem;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .back-des {
+        background: rgb(255, 252, 252);
+        background: linear-gradient(180deg, rgba(255, 252, 252, 0.296) 0%, rgba(224, 221, 221, 1) 16%, rgb(177, 177, 177) 78%);
+        height: 800px;
+        width: 1200px;
+        align-items: center;
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+        margin: auto;
+        padding: 0.5rem;
+    }
+
+    .text-des2 {
+        font-family: 'bebas neue', cursive;
+        font-size: 3rem;
+        transition: all 0.1s ease-in-out;
+
+    }
+}
+
+
+
+
+/* hover effect 
+.text-des2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: currentColor; 
+    transition: width 0.5s ease-in-out;
+}
+
+.text-des2:hover::after {
+    width: 100%;
+}
+*/

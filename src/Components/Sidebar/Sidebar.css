@@ -2,6 +2,7 @@
     position: relative;
     overflow: hidden;
     opacity: 70%;
+    font-family: 'Bebas Neue';
 }
 
 .effect::after {

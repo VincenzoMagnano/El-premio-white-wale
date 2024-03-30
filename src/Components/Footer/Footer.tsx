@@ -2,37 +2,52 @@ import React from 'react'
 import './Footer.css'
 const Footer = () => {
     return (
-        <>
-        
-        <div className='footer-design z-n1 '>
-            
-            <p>
-                <img className='footer-logo' src="Senza titolo-1.png" alt="" />
-                © 2024 White Wale, Inc.
-            </p>
-            <ul>
-                <h4>Links</h4>
-                <a href='#'>Privacy</a>
-                <a href='#'>Terms</a>
-                <a href='#'>Sitemap</a>
-            </ul>
-            <ul>
-                <h4>Social</h4>
-                <a href='#'>Facebook</a>
-                <a href='#'>Twitter</a>
-                <a href='#'>Instagram</a>
-                <a href='#'>LinkedIn</a>
-            </ul>
-            <ul>
-                <h4>Company</h4>
-                <a href='#'>About</a>
-                <a href='#'>Blog</a>
-                <a href='#'>Careers</a>
-                <a href='#'>Support</a>
-                <a href='#'>Contact</a>
-            </ul>
+        <div className='main-div'>
+            <div className='footer-intro' >
+                <h4>Get connected with us on social media</h4>
+                <div className='social-icons'>
+                    <a className='social-link-des' href='#'> <i className="ri-instagram-line mx-2"></i></a>
+                    <a className='social-link-des' href='#'> <i className="ri-tiktok-fill mx-2 "></i></a>
+                    <a className='social-link-des' href='#'> <i className="ri-twitch-fill mx-2 "></i></a>
+                </div>
+            </div>
+            <hr/>
+
+            <div className='footer-details'>
+                <p className='logo-des'><img style={{width:"200px"}} src="Senza titolo-1.png" alt="" /> © 2024 White Wale, Inc.</p>
+                <div className='footer-links'>
+                    <div className='links-des'>
+                        <h4>Links</h4>
+                        <ul>
+                            <a href='#'>Privacy</a>
+                            <a href='#'>Terms</a>
+                            <a href='#'>Sitemap</a>
+                        </ul>
+                    </div>
+                    
+                    <div className='links-des'>
+
+                        <h4>Social</h4>
+                    <ul>
+                        <a href='#'>Facebook</a>
+                        <a href='#'>Twitter</a>
+                        <a href='#'>Instagram</a>
+                        <a href='#'>LinkedIn</a>
+                    </ul>
+                    </div>
+                    <div className='links-des'>
+                        <h4>Company</h4>
+                    <ul>
+                        <a href='#'>About</a>
+                        <a href='#'>Blog</a>
+                        <a href='#'>Careers</a>
+                        <a href='#'>Support</a>
+                        <a href='#'>Contact</a>
+                    </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        </>
     )
 }
 

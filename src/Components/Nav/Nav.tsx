@@ -7,9 +7,9 @@ import SamplePackPage from '../../Page/SamplePackPage/SamplePackPage'
 const Hero = () => {
   return (
     
-    <div className='d-flex justify-content-around bg-body-tertiary py-2'>
+    <div className=' justify-content-between bg-body-tertiary w-100'>
       <Navbar/>
-      <Sidebar/>
+      
     </div>
   )
 }

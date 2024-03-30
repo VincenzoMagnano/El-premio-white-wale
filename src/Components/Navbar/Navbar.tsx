@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <div>
+        <>
             <nav className="navbar navbar-expand-lg  ">
                 <div className="container-fluid">
                     <Link to='/samplepack'>
@@ -23,7 +23,7 @@ const Navbar = () => {
                   
                 </div>
             </nav>
-        </div>
+        </>
     )
 }
 

@@ -22,9 +22,9 @@ const Cards: FC<CardProps> = ({ item, index, setProducts }) => {
     }
     return (
         <div >
-            <div className="card col-4 m-5 card-design" >
+            <div className="card col-4 mx-4 my-3 card-design" >
             
-                <img src={item.image} className="card-img-top " alt={"card"} />
+                <img src={item.image} className="rounded d-block shadow img-fluid " alt={"card"} />
                 <div className="card-body">
                     <h5 className="title-des">{item.title}</h5>
                     <p className="text-secondary text-des">{item.description}</p>
